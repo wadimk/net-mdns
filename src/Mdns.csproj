@@ -10,21 +10,23 @@
     <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
     
     <!-- developer build is always 0.42 -->
-    <AssemblyVersion>0.42</AssemblyVersion>
-    <Version>0.42</Version>
+    <AssemblyVersion>0.43</AssemblyVersion>
+    <Version>0.43</Version>
     
     <!-- Nuget specs -->
     <PackageId>Makaretu.Dns.Multicast</PackageId>
-    <Authors>Richard Schneider</Authors>
+    <Authors>Richard Schneider, Vadim Kosin</Authors>
     <Title>Multicast DNS</Title>
     <Description>A simple Multicast Domain Name Service based on RFC 6762.  Can be used as both a client (sending queries) or a server (responding to queries).</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>https://github.com/richardschneider/net-mdns/releases</PackageReleaseNotes>
-    <Copyright>© 2018-2019 Richard Schneider</Copyright>
+    <Copyright>© 2018-2019 Richard Schneider, © 2021 Vadim Kosin</Copyright>
     <PackageTags>multicast mdns dns zeroconf</PackageTags>
     <IncludeSymbols>True</IncludeSymbols>
-    <PackageProjectUrl>https://github.com/richardschneider/net-mdns</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/wadimk/net-mdns</PackageProjectUrl>
     <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseFile></PackageLicenseFile>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard14'">
