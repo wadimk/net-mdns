@@ -4,7 +4,7 @@
 [![travis build](https://travis-ci.org/richardschneider/net-mdns.svg?branch=master)](https://travis-ci.org/richardschneider/net-mdns)
 [![CircleCI](https://circleci.com/gh/richardschneider/net-mdns.svg?style=svg)](https://circleci.com/gh/richardschneider/net-mdns)
 [![Coverage Status](https://coveralls.io/repos/richardschneider/net-mdns/badge.svg?branch=master&service=github)](https://coveralls.io/github/richardschneider/net-mdns?branch=master)
-[![Version](https://img.shields.io/nuget/v/Makaretu.Dns.Multicast.svg)](https://www.nuget.org/packages/Makaretu.Dns.Multicast)
+[![Version](https://img.shields.io/nuget/v/VKosin.Dns.Multicast.svg)](https://www.nuget.org/packages/VKosin.Dns.Multicast)
 [![docs](https://cdn.rawgit.com/richardschneider/net-mdns/master/doc/images/docs-latest-green.svg)](https://richardschneider.github.io/net-mdns/articles/intro.html)
 
 A simple Multicast Domain Name Service based on [RFC 6762](https://tools.ietf.org/html/rfc6762).  Can be used 
@@ -15,7 +15,7 @@ service or service instance.
 
 ## Features
 
-- Targets Framework 4.6.1, .NET Standard 1.4 and 2.0
+- Targets Framework 4.6.1, .NET Standard 2.0
 - Supports IPv6 and IPv4 platforms
 - CI on Circle (Debian GNU/Linux), Travis (Ubuntu Xenial and OSX) and AppVeyor (Windows Server 2016)
 - Detects new and/or removed network interfaces
