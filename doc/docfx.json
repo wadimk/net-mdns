@@ -15,7 +15,7 @@
         }
       ],
       "properties": {
-        "TargetFramework": "netstandard2"
+        "TargetFramework": "netstandard2.0"
       },
 
       "dest": "api"

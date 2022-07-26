@@ -15,7 +15,7 @@ service or service instance.
 
 ## Features
 
-- Targets Framework 4.6.1, .NET Standard 2.0
+- Targets Framework .NET 6.0, .NET Standard 2.0
 - Supports IPv6 and IPv4 platforms
 - CI on Circle (Debian GNU/Linux), Travis (Ubuntu Xenial and OSX) and AppVeyor (Windows Server 2016)
 - Detects new and/or removed network interfaces
@@ -26,13 +26,13 @@ service or service instance.
 
 ## Getting started
 
-Published releases are available on [NuGet](https://www.nuget.org/packages/Makaretu.Dns.Multicast/).  To install, run the following command in the [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console)
+Published releases are available on [NuGet](https://www.nuget.org/packages/Vkosin.Dns.Multicast/).  To install, run the following command in the [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
-    PM> Install-Package Makaretu.Dns.Multicast
+    PM> Install-Package Vkosin.Dns.Multicast
     
 or using .NET CLI run the following command in the project folder
 
-    > dotnet add package Makaretu.Dns.Multicast
+    > dotnet add package Vkosin.Dns.Multicast
     
 ## Usage Service Discovery
 
@@ -147,6 +147,7 @@ mdns.Start();
 
 ## License
 Copyright © 2018-2019 Richard Schneider (makaretu@gmail.com)
+Copyright © 2021-2022 Vadim Kosin (vkosin@outlook.com)
 
 The package is licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php "Read more about the MIT license form") license. Refer to the [LICENSE](https://github.com/richardschneider/net-mdns/blob/master/LICENSE) file for more information.
 

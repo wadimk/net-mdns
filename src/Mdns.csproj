@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>Makaretu.Dns.Multicast</AssemblyName>
     <RootNamespace>Makaretu.Dns</RootNamespace>
@@ -10,23 +10,24 @@
     <DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
     
     <!-- developer build is always 0.42 -->
-    <AssemblyVersion>0.43</AssemblyVersion>
-    <Version>0.43</Version>
+    <AssemblyVersion>0.44</AssemblyVersion>
+    <Version>0.44</Version>
     
     <!-- Nuget specs -->
-    <PackageId>Makaretu.Dns.Multicast</PackageId>
+    <PackageId>Vkosin.Dns.Multicast</PackageId>
     <Authors>Richard Schneider, Vadim Kosin</Authors>
     <Title>Multicast DNS</Title>
     <Description>A simple Multicast Domain Name Service based on RFC 6762.  Can be used as both a client (sending queries) or a server (responding to queries).</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>https://github.com/richardschneider/net-mdns/releases</PackageReleaseNotes>
-    <Copyright>© 2018-2019 Richard Schneider, © 2021 Vadim Kosin</Copyright>
+    <PackageReleaseNotes>https://github.com/wadimk/net-mdns/releases</PackageReleaseNotes>
+    <Copyright>© 2018-2019 Richard Schneider, © 2021-2022 Vadim Kosin</Copyright>
     <PackageTags>multicast mdns dns zeroconf</PackageTags>
     <IncludeSymbols>True</IncludeSymbols>
     <PackageProjectUrl>https://github.com/wadimk/net-mdns</PackageProjectUrl>
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard14'">
@@ -39,8 +40,9 @@
 
   <ItemGroup>
     <PackageReference Include="Common.Logging" Version="3.4.1" />
-    <PackageReference Include="IPNetwork2" Version="2.5.366" />
+    <PackageReference Include="IPNetwork2" Version="2.5.422" />
     <PackageReference Include="Makaretu.Dns" Version="2.0.1" />
+    <PackageReference Include="Tmds.LibC" Version="0.5.0" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard14'">
